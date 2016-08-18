@@ -1,10 +1,14 @@
 var React = require("react");
 
+var Tabs = require("./Tabs.jsx");
+var TabData = require("../tabData.js");
+
 var SideBar = React.createClass({
 
 	getInitialState: function() {
 		return {
-			SelectedTab: 1
+			tabs: TabData,
+			selectedTab: 0
 		}
 	},
 
@@ -12,6 +16,7 @@ var SideBar = React.createClass({
 		return (
 			<aside>
 				Side Bar
+				<Tabs/>
 			</aside>
 		)
 	}
