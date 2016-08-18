@@ -4,12 +4,11 @@ var Tab = React.createClass({
 
 	render: function() {
 		return (
-			<div className="tab">
-				Tab
-			</div>
+			<li>
+				<a href="">{this.props.tabImg}{this.props.title}</a>
+			</li>
 		)
 	}
-
 
 })
 
