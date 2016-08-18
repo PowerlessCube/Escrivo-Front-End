@@ -16,8 +16,7 @@ var Tabs = React.createClass({
 		}.bind(this))
 
 		return (
-			<nav className="tabs">
-				Tabs
+			<nav>
 				<ul>
 					{displayTabs}
 				</ul>

@@ -1,5 +1,6 @@
 module.exports = [
 	{
+		id: 1,
 		title: "Equipment",
 		tabImg: "TabImg1",
 		images: [
@@ -102,11 +103,13 @@ module.exports = [
 		]
 	},
 	{
+		id: 2,
 		title: "Instuctions",
 		tabImg: "TabImg2",
 		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud non continuo, ut aeque incontentae. Tu vero, inquam, ducas licet, si sequetur; Prioris generis est docilitas, memoria; Non enim quaero quid verum, sed quid cuique dicendum sit. Ille enim occurrentia nescio quae comminiscebatur; Beatus sibi videtur esse moriens.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud non continuo, ut aeque incontentae. Tu vero, inquam, ducas licet, si sequetur; Prioris generis est docilitas, memoria; Non enim quaero quid verum, sed quid cuique dicendum sit. Ille enim occurrentia nescio quae comminiscebatur; Beatus sibi videtur esse moriens."
 	},
 	{
+		id: 3,
 		title: "Location",
 		tabImg: "TabImg2",
 	}

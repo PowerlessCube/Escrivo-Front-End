@@ -16,7 +16,6 @@ var SideBar = React.createClass({
 	render: function() {
 		return (
 			<aside>
-				Side Bar
 				<Tabs
 					tabs={this.state.tabs}
 				/>

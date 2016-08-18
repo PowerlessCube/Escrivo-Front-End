@@ -1,6 +1,7 @@
 ul {
 	list-style: none;
 	padding-left: 0;
+	display: inline-block;
 }
 
 aside {
@@ -10,7 +11,17 @@ aside {
 }
 
 nav {
-	border: 2px solid green;
+	display: inline-block;
+	width: inherit;
+	height: 50px;
+	border: 1px solid green;
+}
+
+nav ul li {
+	border: 2px solid lightgreen;
+	display: inline-block;
+	width: 96px;
+	height: 30px;
 }
 
 .tab {
