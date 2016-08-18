@@ -1,4 +1,5 @@
 ul {
+	margin: 0px;
 	list-style: none;
 	padding-left: 0;
 	display: inline-block;
@@ -21,7 +22,7 @@ nav ul li {
 	border: 2px solid lightgreen;
 	display: inline-block;
 	width: 96px;
-	height: 30px;
+	height: 45px;
 }
 
 .tab {
