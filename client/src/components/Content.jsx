@@ -9,10 +9,9 @@ var Content = React.createClass({
 	render: function() {
 		return (
 			<div className="content">
-				Content
-				<EquipmentTab/>
-				<InstructionsTab/>
-				<LocationTab/>
+				{this.props.currentTab === 1 ? <EquipmentTab/> : null}
+				{this.props.currentTab === 2 ? <InstructionsTab/> : null}
+				{this.props.currentTab === 3 ? <LocationTab/> : null}
 			</div>
 		)
 	}
