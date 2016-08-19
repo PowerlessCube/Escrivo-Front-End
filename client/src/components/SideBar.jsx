@@ -7,7 +7,6 @@ var TabData = require("../tabData.js");
 var SideBar = React.createClass({
 
 	changeCurrentTab: function(tab) {
-		console.log("e.target?", tab);
 		this.setState({currentTab: tab.id});
 	},
 
