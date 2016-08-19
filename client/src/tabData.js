@@ -104,7 +104,7 @@ module.exports = [
 	},
 	{
 		id: 2,
-		title: "Instuctions",
+		title: "Instructions",
 		tabImg: "TabImg2",
 		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud non continuo, ut aeque incontentae. Tu vero, inquam, ducas licet, si sequetur; Prioris generis est docilitas, memoria; Non enim quaero quid verum, sed quid cuique dicendum sit. Ille enim occurrentia nescio quae comminiscebatur; Beatus sibi videtur esse moriens.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Illud non continuo, ut aeque incontentae. Tu vero, inquam, ducas licet, si sequetur; Prioris generis est docilitas, memoria; Non enim quaero quid verum, sed quid cuique dicendum sit. Ille enim occurrentia nescio quae comminiscebatur; Beatus sibi videtur esse moriens."
 	},

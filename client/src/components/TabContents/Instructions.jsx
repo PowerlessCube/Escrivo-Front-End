@@ -5,7 +5,8 @@ var InstructionsTab = React.createClass({
 	render: function() {
 		return (
 			<div className="content">
-				InstructionsTab
+				<h2>{this.props.tabData.title}</h2>
+				<p>{this.props.tabData.text}</p>
 			</div>
 		)
 	}

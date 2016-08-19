@@ -28,7 +28,7 @@ nav {
 nav ul li {
 	border: 2px solid lightgreen;
 	display: inline-block;
-	padding: 15px 13px 15px 13px;
+	padding: 15px 12px 15px 12px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -42,6 +42,7 @@ nav ul li {
 /*CONTENT*/
 /*=========================*/
 .content {
+	overflow-y: scroll;
 	border: 2px solid purple;
 	padding: 5px;
 	height: 315px;
@@ -61,4 +62,18 @@ nav ul li {
 	width: 50px;
 	height: auto;
 	border: 2px solid firebrick;
+}
+
+/*=========================*/
+/*INSTRUCTIONS*/
+/*=========================*/
+.content p {
+	text-align: left;
+}
+
+/*=========================*/
+/*LOCATION*/
+/*=========================*/
+.location {
+	overflow-y: hidden;
 }
