@@ -6,99 +6,99 @@ module.exports = [
 		images: [
 			{
 				imgId: 1,
-				img: "img1"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 2,
-				img: "img2"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 3,
-				img: "img3"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 4,
-				img: "img4"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 5,
-				img: "img5"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 6,
-				img: "img6"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 7,
-				img: "img7"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 8,
-				img: "img8"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 9,
-				img: "img9"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 10,
-				img: "img10"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 11,
-				img: "img11"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 12,
-				img: "img12"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 13,
-				img: "img13"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 14,
-				img: "img14"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 15,
-				img: "img15"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 16,
-				img: "img16"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 17,
-				img: "img17"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 18,
-				img: "img18"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 19,
-				img: "img19"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 20,
-				img: "img20"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 21,
-				img: "img21"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 22,
-				img: "img22"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 23,
-				img: "img23"
+				img: "images/equipment/Sunflower.png"
 			},
 			{
 				imgId: 24,
-				img: "img24"
+				img: "images/equipment/Sunflower.png"
 			}
 		]
 	},
