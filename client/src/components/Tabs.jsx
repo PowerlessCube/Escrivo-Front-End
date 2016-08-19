@@ -11,6 +11,7 @@ var Tabs = React.createClass({
 					key={index}
 					tabImg={tab.tabImg}
 					title={tab.title}
+					changeCurrentTab={this.props.changeCurrentTab}
 				/>
 			)
 		}.bind(this))
