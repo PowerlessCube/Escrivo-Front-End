@@ -11,6 +11,10 @@ aside {
 	border: 1px solid red;
 }
 
+/*=========================*/
+/*NAV BAR*/
+/*=========================*/
+
 nav {
 	display: inline-block;
 	width: inherit;
@@ -18,17 +22,28 @@ nav {
 	border: 1px solid green;
 }
 
+/*=========================*/
+/*TAB*/
+/*=========================*/
 nav ul li {
 	border: 2px solid lightgreen;
 	display: inline-block;
-	width: 96px;
-	height: 45px;
+	padding: 15px 13px 15px 13px;
+	text-align: center;
+	cursor: pointer;
 }
 
 .tab {
+
+	top: 50%;
 	border: 2px solid blue;
 }
 
+/*=========================*/
+/*CONTENT*/
+/*=========================*/
 .content {
 	border: 2px solid purple;
+	padding: 5px;
+	height: 315px;
 }

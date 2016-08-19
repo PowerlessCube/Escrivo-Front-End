@@ -5,7 +5,7 @@ var Tab = React.createClass({
 	render: function() {
 		return (
 			<li>
-				<a href="">{this.props.title}</a>
+				<a href="" className="tab">{this.props.title}</a>
 			</li>
 		)
 	}
