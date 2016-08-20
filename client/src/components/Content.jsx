@@ -11,7 +11,7 @@ var Content = React.createClass({
 			<div>
 				{this.props.currentTab === 1 ? <EquipmentTab tabData={this.props.tabs[0]}/> : null}
 				{this.props.currentTab === 2 ? <InstructionsTab  tabData={this.props.tabs[1]}/> : null}
-				{this.props.currentTab === 3 ? <LocationTab  tabData={this.props.tabs[2]} map={this.props.map}/> : null}
+				{this.props.currentTab === 3 ? <LocationTab  tabData={this.props.tabs[2]}/> : null}
 			</div>
 		)
 	}

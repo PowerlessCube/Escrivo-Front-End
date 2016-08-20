@@ -112,5 +112,7 @@ module.exports = [
 		id: 3,
 		title: "Location",
 		tabImg: "TabImg2",
+		lat: 55.949619,
+		lng: -3.183082
 	}
 ];
