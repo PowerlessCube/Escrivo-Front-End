@@ -15,7 +15,6 @@ var EquipmentTab = React.createClass({
 
 		return (
 			<div className="content">
-				<h2>{this.props.tabData.title}</h2>
 				{displayImages}
 			</div>
 		)
