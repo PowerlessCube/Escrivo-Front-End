@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	color: #626363;
+	color: #005E57;
 }
 
 ul {
@@ -73,7 +73,7 @@ nav ul li:nth-child(3) {
 .content {
 	overflow-y: scroll;
 	border: 1px solid #005E57;
-	padding: 10px 5px;
+	padding: 15px 10px;
 	height: 330px;
 	text-align: center;
 }
@@ -95,6 +95,16 @@ nav ul li:nth-child(3) {
 /*=========================*/
 .content p {
 	text-align: left;
+	padding: 0 10px 0 10px;
+}
+
+.content p:nth-child(1)::first-letter {
+	color: #fff;
+	background-color: #005E57;
+	font-size: 2em;
+	float: left;
+	padding: 2px 10px 2px 10px;
+	margin-right: 5px;
 }
 
 /*=========================*/

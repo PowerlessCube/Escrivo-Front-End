@@ -6,6 +6,7 @@ var InstructionsTab = React.createClass({
 		return (
 			<div className="content">
 				<p>{this.props.tabData.text}</p>
+				<p>{this.props.tabData.text}</p>
 			</div>
 		)
 	}
