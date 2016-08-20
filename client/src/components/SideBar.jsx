@@ -6,15 +6,16 @@ var TabData = require("../tabData.js");
 
 var SideBar = React.createClass({
 
-	changeCurrentTab: function(tab) {
-		this.setState({currentTab: tab.id});
-	},
-
 	getInitialState: function() {
 		return {
 			tabs: TabData,
-			currentTab: 1
+			currentTab: 1,
+			map: null
 		}
+	},
+
+	changeCurrentTab: function(tab) {
+		this.setState({currentTab: tab.id});
 	},
 
 	render: function() {
@@ -27,6 +28,7 @@ var SideBar = React.createClass({
 				<Content
 					currentTab={this.state.currentTab}
 					tabs={this.state.tabs}
+					map={this.state.map}
 				/>
 			</aside>
 		)
