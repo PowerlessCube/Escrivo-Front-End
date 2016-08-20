@@ -33,26 +33,26 @@ Feel free to use your preferred development tools and environment for this examp
 		**Width:** 300px
 		**Height:** 380px;
 
-#User Stories
-
-
 #Tools Used:
 - React
 - Webpack
 
 #Development Links
 the below is a list of links and information I used to help create this app:
+- http://learn.shayhowe.com/html-css/positioning-content/
+- http://stackoverflow.com/questions/29532356/google-maps-in-react
+- http://codepen.io/trey/post/tabbed-navigation-react
 
 #App Development
 - this app was developed using a Macbook Pro, the below instructions are for installing the app via unix command lines.
 
 #Installation
 To install the dependencies and run the webapp locally on port 3000, follow the below instructions:
-- clone the following SSH key to your chosen directory:
+- Using Unix Terminal, clone the following SSH key to your chosen directory:
 ```
-
+git clone git@github.com:PowerlessCube/Escrivo-Front-End.git
 ```
-- navigate to the following folder level and type the following to install express package:
+- navigate to the following folder level and type the following to app dependencies:
 
 $EscrivoFrontEnd/
 ```
