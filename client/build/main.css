@@ -14,7 +14,7 @@ ul {
 }
 
 aside {
-	border: 1px solid brown;
+	border: 1px solid red;
 	width: 300px;
 	height: 380px;
 }
@@ -87,24 +87,17 @@ nav ul li a:hover {
 .content {
 	overflow-y: scroll;
 	border: 1px solid #005E57;
-	border-top: 0;
+	border-top: 0
 	padding: 15px 10px;
-	height: 338px;
+	height: 340px;
 	text-align: center;
 }
 
 /*=========================*/
 /*EQUIPMENT*/
 /*=========================*/
-/*.equipment-container {
-	border: 1px solid red;
-	width: inherit;
-	height: inherit;
-}*/
-
 .equipment-image {
-	/*float: left;
-	display: block;*/
+	display: inline-block;
 	border: 1px solid #005E57;
 	margin: 4px;
 	width: 50px;
