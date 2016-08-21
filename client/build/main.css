@@ -42,7 +42,7 @@ nav ul {
 }
 
 /*=========================*/
-/*TAB*/
+/*TABS*/
 /*=========================*/
 nav ul li {
 	height: inherit;
@@ -68,7 +68,6 @@ nav ul li:nth-child(2) {
 	border: 1px solid #005E57;
 	color: #005E57;
 	background-color: #fff;
-	border-bottom: 0;
 }
 
 nav ul li a:hover {
@@ -86,22 +85,33 @@ nav ul li a:hover {
 .content {
 	overflow-y: scroll;
 	border: 1px solid #005E57;
-	border-top: 0
-	padding: 15px 10px;
-	height: 340px;
+	height: 339px;
 	text-align: center;
 }
 
 /*=========================*/
 /*EQUIPMENT*/
 /*=========================*/
+.equipment-container {
+	margin: 15px 10px;
+	clear: left;
+	text-align: center;
+}
+
 .equipment-image {
-	display: inline-block;
+	float: left;
+	display: block;
 	border: 1px solid #005E57;
+	border-radius: 5px;
 	margin: 4px;
-	width: 50px;
+	width: 19%;
 	height: auto;
 	padding: 2px;
+}
+
+.equipment-image:nth-child(1) {
+	width: 114px;
+	height: 127px;
 }
 
 /*=========================*/
