@@ -69,7 +69,6 @@ nav ul li:nth-child(2) {
 	color: #005E57;
 	background-color: #fff;
 	border-bottom: 0;
-	font-weight: bold;
 }
 
 nav ul li a:hover {
@@ -79,7 +78,6 @@ nav ul li a:hover {
 
 .current:hover {
 	border: 1px solid #669E9A;
-	font-weight: bold;
 }
 
 /*=========================*/
