@@ -15,7 +15,9 @@ var EquipmentTab = React.createClass({
 
 		return (
 			<div className="content">
-				{displayImages}
+				<div className="equipment-container">
+					{displayImages}
+				</div>
 			</div>
 		)
 	}
