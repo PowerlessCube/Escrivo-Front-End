@@ -10,7 +10,12 @@ var Tab = React.createClass({
 	render: function() {
 		return (
 			<li>
-				<a onClick={this.handleClick} className="tab">{this.props.title}</a>
+				<a
+					className={this.props.isCurrent ? "current" : null}
+					onClick={this.handleClick}
+				>
+					{this.props.title}
+				</a>
 			</li>
 		)
 	}

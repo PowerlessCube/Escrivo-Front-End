@@ -24,6 +24,7 @@ var SideBar = React.createClass({
 				<Tabs
 					tabs={this.state.tabs}
 					changeCurrentTab={this.changeCurrentTab}
+					currentTab={this.state.currentTab}
 				/>
 				<Content
 					currentTab={this.state.currentTab}

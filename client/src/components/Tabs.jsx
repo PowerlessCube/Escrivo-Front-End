@@ -17,6 +17,7 @@ var Tabs = React.createClass({
 					tabImg={tab.tabImg}
 					title={tab.title}
 					handleClick={this.handleClick.bind(this, tab)}
+					isCurrent={(this.props.currentTab === tab.id)}
 				/>
 			)
 		}.bind(this))
