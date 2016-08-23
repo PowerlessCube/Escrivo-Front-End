@@ -78,5 +78,5 @@ npm start
 
 - in your web browser of choice type in the following url to view the app:
 ```
-localhost:3000/
+localhost:3002/
 ```

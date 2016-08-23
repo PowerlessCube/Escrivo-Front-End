@@ -14,10 +14,9 @@ var LocationTab = React.createClass({
       center: this.mapCenterLatLng(),
 			scrollwheel: false,
       zoom: this.props.initialZoom
-    },
-    map = new google.maps.Map(this.getDOMNode(), mapOptions);
-    var marker = new google.maps.Marker({position: this.mapCenterLatLng(), map: map});
-    this.setState({map: map});
+    }
+		var map = new google.maps.Map(this.getDOMNode(), mapOptions);
+		var marker = new google.maps.Marker({position: this.mapCenterLatLng(), map: map});
   },
 
   mapCenterLatLng: function () {
